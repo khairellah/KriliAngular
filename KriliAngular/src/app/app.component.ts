@@ -18,5 +18,6 @@ export class AppComponent implements OnInit {
     const user = new User('A', 'PA', 'A')
       const users = await this.kcHttpService.findAll();
       await this.kcHttpService.create(user);
+      
   }
 }
